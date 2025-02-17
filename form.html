@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/mystyle.css">
+    </head>
+    <body>
+            <div id="d1" onclick="myFunction(this)">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./roadmap.html">Road-Map </a></li>
+              <li><a href="./form.html">Registration Form</a></li>
+              <li><a href="https://iti.gov.eg">Contact</a></li>
+            </div>
+              <div class="img">
+                <img src="ITI_logo.png" width="230" height="70"> </div> 
+        </ul>
+<form action="" method="post">
+    <table>
+        <tr>
+            <td><h2>Registration Form</h2></td>
+        </tr>
+        <tr>
+            <td><p class="f1"><small> Fields marked with <span style="color: red;">*</span> are compulsory fields</small></p></td> 
+        </tr>
+        <tr>
+            <td class="n1">
+                <label><span style="color: red;">*</span>Your name</label>
+            </td>
+            <td>
+                <input type="text" name="fname">
+            </td>
+        </tr>
+        <tr>
+            <td class="n1">
+                <label><span style="color: red;">*</span>E-Mail ID</label>
+            </td>
+            <td>
+                <input type="text" name="lname">
+            </td>
+        </tr>
+        <tr>
+            <td class="n1">
+                <label>Mobile Phone</label>
+            </td>
+                <td>
+                    <input type="number">
+                </td>
+        </tr>
+        <tr>
+            <td class="n1">
+                <label><span style="color: red;">*</span>Your postal address</label>
+            </td>
+            <td>
+                <textarea type="text" name="address">
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="n1">
+                <label><span style="color: red;">*</span>Country</label>
+            </td>
+            <td>
+                <select id="countries" width="40px" name="countries">
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Giza">Giza</option>
+                    <option value="tanta">tanta</option>
+                    <option value="portsaid">portsaid</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="n1">
+                <label for="pwd"><span style="color: red;">*</span>Password</label>
+            </td>
+            <td>
+                <input type="password" id="pwd" name="pwd">
+            </td>
+        </tr>
+            <tr>
+                <td class="s1">
+                    <input type="checkbox" >
+                    <label>I accept the <span style="color: blue;"><u>Term of use</u></span></label>
+                </td>
+            </tr>
+            <tr>
+                <td class="a1">
+                    <input type="submit" value="continue >>">
+                    <input type="reset">
+                </td>
+            </tr>
+    </table>
+</form>
+    </body>
+</html>
